@@ -1,0 +1,27 @@
+.sidebar{
+    border-right: 1px solid var(--twitter-background);
+    flex: 0.3; /*uses 30% of the entire screen. */
+    min-width: 250px;
+    margin-left: 20px; 
+    margin-right: 0px;
+}
+/* style the twitter icon using the twitter icon class */
+.sidebar__twitterIcon{
+    color: var(--twitter-color);
+    font-size: 30 px !important;
+    margin: 10px 20px;
+    margin-bottom: 20 px;
+}
+/* set the background color of this tweet class and override the original color provided by materialui using important */
+.sidebar__tweet{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important; 
+    font-weight: 900 !important;
+    /* sets the text style to that of the other icons: starts with uppercase letter */
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px im !important;
+    width: 90% !important;
+}
