@@ -1,0 +1,43 @@
+/* select the tweetbox class */
+.tweetBox{
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--twitter-color);
+    padding-right: 10px;   
+}
+/* select the form component of the tweetBox class */
+.tweetBox > form{
+    display: flex;
+    flex-direction: column;
+}
+/* select the tweetBox__input class */
+.tweetBox__input{
+    padding: 20px;
+    display: flex;
+}
+/* style the tweetBox input field in the tweetBox__input class */
+.tweetBox__input > input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+/* style the tweetBox__imageInput class */
+.tweetBox__imageInput{
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+.tweetBox__tweetButton{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important; 
+    font-weight: 900 !important;
+    /* sets the text style to that of the other icons: starts with uppercase letter */
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 40px !important;
+    margin-top: 20px !important;
+    width: 80px !important;
+    margin-left: auto !important;
+}
